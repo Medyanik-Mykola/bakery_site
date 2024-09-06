@@ -1,0 +1,36 @@
+.flex-box {
+    display: flex;
+    
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+}
+.red_square{
+    background-color: red;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+.blue_square {
+    background-color: blue;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+.green_square {
+    background-color: green;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+.yellow_square {
+    background-color: yellow;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}

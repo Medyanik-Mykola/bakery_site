@@ -1,0 +1,81 @@
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-image: url('../images/footer-bkg.png');
+    background-color: var(--color-primary_dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.footer::before,
+.footer::after {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+.footer::before {
+    background-image: url('/images/decor-bread-small.png');
+    width: 180px;
+    height: 120px;
+    left: 0;
+    bottom: 0;
+}
+
+.footer::after {
+    width: 380px;
+    height: 190px;
+    right: 0;
+    bottom: -3px;
+    background-image: url('/images/decor-bread-twice.png');
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav,
+.footer-address {
+    flex-basis: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-logo,
+.footer-menu {
+    flex-basis: 50%;
+    /* або flex-grow: 1; */
+}
+
+.address-list,
+.address-info {
+    flex-basis: 50%;
+    /* або flex-grow: 1; */
+}
+
+.address_link {
+    color: var(--color-primary_light);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.address_link:hover {
+    color: var(--color-brand);
+}
+
+.address_copyright_text {
+    font-size: 14px;
+    color: var(--color-secondary-dark);
+}
+
+.address-icon {
+    fill: var(--color-primary_light);
+}
+
+.address-icon:hover {
+    fill: var(--color-brand);
+}

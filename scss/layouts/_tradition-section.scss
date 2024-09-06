@@ -1,0 +1,32 @@
+
+
+.tradition_section {
+    padding-top: 96px;
+
+    &__container {
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+        }
+    
+        &__content {
+            max-width: 710px;
+        }
+        &__title {
+            margin-bottom: 42px;
+        }
+        &__text{
+            &--limited {
+                    max-width: 330px;
+            }
+        }
+}
+
+
+
+
+
+.tradition-baker-man {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}

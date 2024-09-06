@@ -1,0 +1,39 @@
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/base';
+@import './utils/utils';
+
+.section {
+    padding: 48px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    /* padding: 0 24px; */
+}
+
+a {
+    display: inline-block;
+}
+
+@import './componens/buttons';
+@import './componens/carusel';
+@import './componens/form';
+@import './componens/links';
+
+
+
+
+@import './layouts/header';
+@import './layouts/hero-sections';
+@import './layouts/advantages-section';
+@import './layouts/section-title';
+@import './layouts/tradition-section';
+@import './layouts/chefs-section';
+@import './layouts/format-section';
+@import './layouts/contact-section';
+@import './layouts/footer';
+@import './layouts/modal';
+@import './utils/texts';

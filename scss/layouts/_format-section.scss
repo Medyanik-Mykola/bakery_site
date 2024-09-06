@@ -1,0 +1,65 @@
+.formats-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.formats-item {
+    flex-basis: calc((100% - 40px) / 3);
+}
+
+.formats-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.format-card {
+    position: relative;
+    height: 444px;
+    padding: 24px;
+    background: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, #31261A 100%);
+    border-radius: 16px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.format-card:hover {
+    transform: scale(1.05);
+}
+
+.formats_title {
+    margin-bottom: 80px;
+}
+
+.format_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-primary_light);
+}
+
+.format_text {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-primary_light);
+}
+
+.format-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Додана тінь */
+    transition: box-shadow 0.3s;
+    /* Доданий перехід для тіні */
+}
+
+.format-card:hover .format-image {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Тінь при наведенні */
+}
